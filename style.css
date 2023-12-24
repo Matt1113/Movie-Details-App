@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    max-width: 700px;
+    background: linear-gradient(40deg, blue, red);
+    color: #fff;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    height: 50px;
+    border-radius: 18px;
+    flex: 1;
+    margin-right: 35px;
+    font-size: 20px;
+}
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.search button img {
+    height: 35px;
+}
+
+.movie {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    margin-top: 30px;
+}
+.movie img {
+    height: 300px;
+    width: 200px;
+}
+.movie div {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.year {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.runtime {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.director {
+    font-size: 20px;
+}
+
+.ratings {
+    display: none;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.description {
+    display: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
